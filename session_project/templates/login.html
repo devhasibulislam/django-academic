@@ -1,0 +1,35 @@
+{% extends 'base.html' %} {% block title %}Login{% endblock %} {% block body %}
+<h2 class="mb-3">Login</h2>
+
+<form method="POST" class="shadow-sm p-4 rounded w-50">
+  {% csrf_token %}
+
+  <!-- Email input -->
+  <div class="form-outline mb-4">
+    <label class="form-label" for="form2Example1">Email address</label>
+    <input
+      type="text"
+      name="uname"
+      id="form2Example1"
+      class="form-control"
+      required
+    />
+  </div>
+
+  <!-- Password input -->
+  <div class="form-outline mb-4">
+    <label class="form-label" for="form2Example2">Password</label>
+    <input
+      type="text"
+      name="pwd"
+      id="form2Example2"
+      class="form-control"
+      required
+    />
+  </div>
+
+  <!-- Login button -->
+  <button type="submit" class="btn btn-primary btn-block mb-4">Login</button>
+</form>
+
+{% endblock %}
