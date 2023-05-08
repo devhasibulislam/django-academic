@@ -18,6 +18,9 @@ AcademicDjango
     |       |-activate
     |       |-deactivate.bat
     |-preparation_project (for actual as project)
+    |-session_project (for actual as project)
+        |-myapp
+        |-myproj
 ```
 
 ## Create `Virtual Environment`
@@ -26,13 +29,13 @@ AcademicDjango
 
 ```
 python -m venv django_env
-django_env/Scripts/activate
+django_env\Scripts\activate
 ```
 
 ### `Deactivate` Virtual Environment
 
 ```
-django_env/Scripts/deactivate.bat
+django_env\Scripts\deactivate.bat
 ```
 
 ## Install `Django`
