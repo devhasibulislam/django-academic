@@ -68,10 +68,13 @@ python manage.py runserver
 ```
 
 # Create `Admin`
+
 ```
 python manage.py createsuperuser
 ```
 
 ## Default `Credentials`
-```
-```
+
+- Username: `admin`
+- Email: `admin@admin.com`
+- Password: `admin`
