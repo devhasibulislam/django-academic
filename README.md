@@ -18,9 +18,13 @@ AcademicDjango
     |       |-activate
     |       |-deactivate.bat
     |-preparation_project (for actual as project)
+    |   |-preparation_project
     |-session_project (for actual as project)
-        |-myapp
-        |-myproj
+    |   |-myapp
+    |   |-myproj
+    |-employee_project
+    |   |-employee_project
+    |   |-employee_register
 ```
 
 ## Create `Virtual Environment`
