@@ -66,3 +66,12 @@ cd preparation_project
 ```
 python manage.py runserver
 ```
+
+# Create `Admin`
+```
+python manage.py createsuperuser
+```
+
+## Default `Credentials`
+```
+```
