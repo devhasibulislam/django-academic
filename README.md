@@ -29,6 +29,11 @@ AcademicDjango
 
 ```
 python -m venv django_env
+```
+
+### `Active` Virtual Environment
+
+```
 django_env\Scripts\activate
 ```
 
@@ -50,5 +55,10 @@ python -m django --version
 ```
 django-admin startproject preparation_project
 cd preparation_project
+```
+
+## Run Python `Server`
+
+```
 python manage.py runserver
 ```
