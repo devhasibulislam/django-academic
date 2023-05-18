@@ -35,6 +35,7 @@
     <div class="container mt-5">
       {% if current_user %}
       <h2>Welcome <span style="color: dodgerblue">{{current_user}}</span>!</h2>
+      {% else %}
       <h2 class="mb-5">Login to access this website!</h2>
       {% endif %} {% block body %}{% endblock %}
     </div>
