@@ -78,3 +78,10 @@ python manage.py createsuperuser
 - Username: `admin`
 - Email: `admin@admin.com`
 - Password: `admin`
+
+### Addition `Commands`
+
+```
+python manage.py makemigrations
+pytho manage.py migrate
+```
