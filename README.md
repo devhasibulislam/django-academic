@@ -83,5 +83,5 @@ python manage.py createsuperuser
 
 ```
 python manage.py makemigrations
-pytho manage.py migrate
+python manage.py migrate
 ```
